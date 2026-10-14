@@ -1,0 +1,34 @@
+---
+
+### 2. `.gitignore`
+
+```gitignore
+# Byte-compiled / Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambientes Virtuais
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs e Editores de Texto
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs e Arquivos Temporários
+*.log
+logs/
+*.tmp
+
+# Modelos salvos / Checkpoints pesados (opcional: desmarcar se quiser versionar o .zip)
+# *.zip
+
+# Capturas de tela dinâmicas geradas em tempo de execução (se houver pasta de output)
+/capturas_temp/
